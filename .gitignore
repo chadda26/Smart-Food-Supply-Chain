@@ -1,0 +1,33 @@
+
+# Dependencies
+node_modules/
+
+# Next.js generated files
+.next/
+out/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# Deployment
+.vercel/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Uploaded verification evidence - keep out of Git
+public/uploads/
